@@ -1,0 +1,47 @@
+[
+  {
+    "ID": 1,
+    "name": "Iberostar Grand Salome",
+    "location": "Costa Adeje, Tenerife",
+    "image": "./hotel-image-1.png",
+    "rating": 5,
+    "departureAirport": "East Midlands",
+    "departureDate": "3rd July 2019",
+    "duration": 7,
+    "adults": 2,
+    "children": 2,
+    "infants": 1,
+    "price": 1136.5,
+    "overview": "overview 1"
+  },
+  {
+    "ID": 2,
+    "name": "Aguamarina Golf Hotel",
+    "location": "Costa Adeje, Tenerife",
+    "image": "./hotel-image-2.png",
+    "rating": 3,
+    "departureAirport": "Liverpool",
+    "departureDate": "27th March 2019",
+    "duration": 7,
+    "adults": 2,
+    "children": 1,
+    "infants": 0,
+    "price": 686.8,
+    "overview": "overview 2"
+  },
+  {
+    "ID": 3,
+    "name": "Las Piramides Resort",
+    "location": "Costa Adeje, Tenerife",
+    "image": "./hotel-image-3.png",
+    "rating": 4,
+    "departureAirport": "Manchester",
+    "departureDate": "3rd July 2019",
+    "duration": 7,
+    "adults": 2,
+    "children": 2,
+    "infants": 0,
+    "price": 499.99,
+    "overview": "overview 3"
+  }
+]

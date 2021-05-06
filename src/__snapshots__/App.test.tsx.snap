@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`by default it should sort the results by price 1`] = `
+<ul
+  class="Sort"
+>
+  <li>
+    <button
+      class=""
+    >
+      sort 
+      <strong>
+        alphabetically
+      </strong>
+    </button>
+  </li>
+  <li>
+    <button
+      class="selected"
+    >
+      sort by 
+      <strong>
+        price
+      </strong>
+    </button>
+  </li>
+  <li>
+    <button
+      class=""
+    >
+      sort by 
+      <strong>
+        rating
+      </strong>
+    </button>
+  </li>
+</ul>
+`;

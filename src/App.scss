@@ -1,0 +1,125 @@
+body {
+  background-image: url("./background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: white;
+}
+
+.App {
+  margin: 30px auto;
+  width: 80%;
+
+  display: flex;
+  &__sidebar {
+    width: 25%;
+    padding-right: 5%;
+  }
+
+  &__content {
+    width: 75%;
+  }
+}
+
+.Sort {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+  li {
+    border-top: 1px solid #17317f;
+    &:first-of-type {
+      border-top: 0;
+    }
+    &:hover {
+      cursor: pointer;
+      // background-color: #8995bb;
+    }
+    button {
+      color: #17317f;
+      background-color: white;
+      padding: 15px;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      font-size: 1rem;
+      text-align: start;
+    }
+  }
+  .selected {
+    background-color: #17317f;
+    color: white;
+  }
+}
+
+.Result {
+  margin-bottom: 20px;
+  &__row {
+    display: flex;
+    position: relative;
+  }
+  &__image {
+    width: 60%;
+    object-fit: cover;
+  }
+
+  &__info {
+    padding: 15px;
+    background-color: white;
+    width: 40%;
+    font-size: 0.8rem;
+
+    button {
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #fedc07;
+      color: #17317f;
+      border: 0;
+      border-radius: 5px;
+      width: 100%;
+      margin: 10px auto;
+      padding: 5px;
+      &:hover {
+        background-color: #dfc208;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #17317f;
+  }
+
+  &__subTitle {
+    font-size: 0.9rem;
+    color: gray;
+  }
+
+  &__cta {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: #17317f;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  &__overview {
+    background-color: white;
+    color: #17317f;
+  }
+}
+.ratings {
+  margin: 10px 0;
+}
+.rating {
+  height: 15px;
+  width: 15px;
+}
